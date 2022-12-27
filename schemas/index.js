@@ -10,6 +10,8 @@ mongoose.connection.on("error", err => {
   console.error("몽고디비 연결 에러", err);
 });
 
+
+
 mongoose.set('strictQuery', true);
 
 module.exports = connect;
